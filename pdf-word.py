@@ -1,7 +1,7 @@
 import streamlit as st
 import tempfile
 import os
-from PyPDF2 import PdfReader      #import fitz  # PyMuPDF
+import PyMuPDF    #import fitz  # PyMuPDF
 import pdfplumber
 from docx import Document
 from docx.shared import Inches
